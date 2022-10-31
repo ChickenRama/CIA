@@ -1,0 +1,227 @@
+*{
+    margin: 0px;
+}
+
+
+body {
+    
+    background:rgb(54, 55, 75);
+    color: rgb(255, 255, 255);
+    font-family: 'Nunito', sans-serif;
+}
+
+h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+}
+
+.principal-boton{
+    width: 250px;
+    height: 40px;
+    background-color: rgb(127, 255, 0);
+    border-radius: 24px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+ 
+h1 strong {
+    color: chartreuse;
+}
+h2 strong {
+color: red;
+}
+
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: inherit;
+}
+
+img {
+    width: 15%;
+}
+
+.header {
+    background: rgb(56, 69, 86);
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.header li{
+    height: inherit;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.logo img{
+    width: 100px;
+}
+
+.menu {
+    height: inherit;
+}
+.principal img{
+    width: 300px;
+}
+.principal4 img{
+    width: 250px;
+}
+
+.somos h2{
+    color: rgba(97, 194, 0, 0.781);
+    margin-bottom: 10px;
+}
+.problema p{
+    text-align: left;
+}
+
+/*
+.padre{
+    background: rgb(235, 235, 235);
+    display: flex;
+    flex-wrap: nowrap ;
+    flex-direction: row;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+
+.hijo{
+    background: orange;
+    width: 200px;
+    height: 200px;
+    border: 2px solid yellowgreen;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+*/
+
+.Info {
+    height: 300px;
+    background: rgb(238, 238, 238);
+    display: flex;
+    color: black;
+}
+
+.pepe{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+    text-align: center;
+}
+
+.pepe img{
+    height: 90%;
+    width:  90%;
+}
+
+.somos p{
+    margin-bottom: 20px;
+}
+
+.principal{ 
+    background-color: rgb(230,230,230);
+    background-image: url('img/JOSEFINA.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 75px;
+}
+
+.problema{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    padding: 1px 50px;
+    
+}
+
+.principal3{
+    background-color: rgba(215, 215, 215);
+    color: rgb(78, 75, 75);
+    text-align: left;
+    padding: 30px 20px;
+}
+
+.somos{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 50px 50px 50px 0px;
+    font-size: 20px;
+}
+.principal4{
+    background-color: rgb(195, 195, 195);
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding: 30px 20px;
+}
+
+.row1-contacto img{
+    width: 35px;
+    height: 25px;
+}
+.row2-contacto img{
+    width: 35px;
+    height: 25px;
+}
+.container1{
+    display: flex;
+    background: rgb(72, 72, 74);
+    padding: 20px;
+    justify-content: space-around;
+}
+.container2{
+background: rgb(171, 255, 46);
+}
+.col1-container1{
+width: 400px;
+}
+.col2-container1{
+    width: 200px;
+}
+.col2-container1 a{
+    color: white;
+    text-decoration: none;
+}
+.col3-container1{
+    width: 300px;
+}
+.row1-contacto{
+    display: flex;
+    margin: 10px 0px;
+}
+.row1-contacto p{
+    padding-left: 10px;
+}
+.row2-contacto{
+    display: flex;
+}
+.row2-contacto p{
+    padding-left: 10px;
+}
